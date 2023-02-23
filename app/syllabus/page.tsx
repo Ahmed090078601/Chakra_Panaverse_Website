@@ -2,7 +2,7 @@
 import React from 'react'
 import Header from "../components/header";
 import Footer from '../components/footer'
-import Home from '../components/Home'
+import Home from '../components/home'
 import {cards, core} from '../components/database'
 import { Box, Container,Heading,Center,Text, Flex } from '@chakra-ui/react';
 import { RevealWrapper } from  'next-reveal'

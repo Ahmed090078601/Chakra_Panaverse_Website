@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import Home from '../components/Home'
+import Home from '../components/home'
 import "../components/global.css"
 import Image from 'next/image'
 export default function contact() {

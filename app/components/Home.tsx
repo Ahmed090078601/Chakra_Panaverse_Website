@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import {Box, Container, Heading} from '@chakra-ui/react'
-export default function Home(hello:any) {
+export default function home(hello:any) {
   return (
     <Box bgImage={hello.src} py='200px' bgSize='cover' bgAttachment='fixed'>
         <Container maxW={1100}>
