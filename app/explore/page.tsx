@@ -1,9 +1,11 @@
 'use client'
+import { Box } from '@chakra-ui/react'
 import React from 'react'
 import Home from '../components/home'
 
 export default function explore() {
   return (
-    <Home title='Explore' src='/images/office.jpg'/>
+    <Box bgAttachment='fixed' py='200px' bgSize='cover' bgImage='https://static.vecteezy.com/system/resources/previews/005/152/375/original/modern-futuristic-neon-purple-background-free-vector.jpg'>
+      </Box>
   )
 }

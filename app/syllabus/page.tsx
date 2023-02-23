@@ -9,7 +9,10 @@ import { RevealWrapper } from  'next-reveal'
 export default function syllabus() {
   return (
 <>
-<Home title='Syllabus' src='https://background.live/wp-content/uploads/2022/04/41613405958rhvilahlttorlzyz8umwdaek6npyr63gswnshyoalqcmdjkwzjxvtjvzmllqd3kbgrcmpza1j4w7bzbsvk3iishphloe71gpkg6t.jpg'  />
+
+<Box  bgAttachment='fixed' py='200px' bgSize='cover' bgImage='https://background.live/wp-content/uploads/2022/04/41613405958rhvilahlttorlzyz8umwdaek6npyr63gswnshyoalqcmdjkwzjxvtjvzmllqd3kbgrcmpza1j4w7bzbsvk3iishphloe71gpkg6t.jpg'>
+<Heading alignContent={'center'}>Syllabus</Heading>
+</Box>
 <Box pt='30px'>
 <RevealWrapper  origin='left' distance='10px' className="load-hidden" rotate={{x: 12,y:40,z:0}} delay={200} duration={1000}  reset={true}>
 <Container maxW='1400'>
@@ -22,6 +25,7 @@ Course Syllabus </Heading>
   <Heading>Common In All</Heading>
   <Text textAlign='center' px='130px'>Every participant of the program will start by completing the following three core courses</Text>
 </Center>
+
 
 <Center>
   <Flex mt='30px' gap='20px'>
@@ -69,6 +73,7 @@ Course Syllabus </Heading>
 ))}
 </Container>
 </Box>
+
 </>
 
   )

@@ -3,7 +3,7 @@ import React from 'react'
 import{Box,Container,HStack,Heading,Text, Button} from "@chakra-ui/react";
 export default function page() {
   return (
-    <Box>
+    <Box bgAttachment='fixed' bgImage='https://static.vecteezy.com/system/resources/previews/005/152/375/original/modern-futuristic-neon-purple-background-free-vector.jpg'>
 <Container maxW="1200" bg="blue.50" p="10">
 <HStack>
 <Box flex="3">
