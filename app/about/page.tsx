@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import Home from '../components/home'
+
 import {Box, Button, Container, Flex, Heading, Image, Text} from '@chakra-ui/react'
 import Instructors from '../components/instructors'
 import { RevealWrapper } from  'next-reveal'

@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import Home from '../components/home'
+
 import "../components/global.css"
 import Image from 'next/image'
 import {  Box } from '@chakra-ui/react'
