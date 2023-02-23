@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import{Box,Container,HStack,Heading,Text, Button} from "@chakra-ui/react";
 export default function page() {

@@ -1,3 +1,4 @@
+'use client'
 import { posts } from "../../../../data/posts";
 import styles from "./page.module.css";
 

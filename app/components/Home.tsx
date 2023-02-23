@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import {Box, Container, Heading} from '@chakra-ui/react'
 export default function Home(hello:any) {

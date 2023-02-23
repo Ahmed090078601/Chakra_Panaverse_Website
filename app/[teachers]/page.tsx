@@ -1,3 +1,4 @@
+'use client'
 import Link from "next/link";
 export default function Teachers({ params }: { params: { teachers: string } }) {
     return (

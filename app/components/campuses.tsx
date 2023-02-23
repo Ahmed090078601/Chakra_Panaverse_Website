@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import{Box, Text,Image, Center, Container, Flex, Heading} from '@chakra-ui/react'
 import{data} from '../components/databasecities'
