@@ -7,7 +7,9 @@ import { RevealWrapper } from  'next-reveal'
 export default function about() {
   return (
     <>
-    <Home title='About' src='https://images.pexels.com/photos/667838/pexels-photo-667838.jpeg?cs=srgb&dl=pexels-huseyn-kamaladdin-667838.jpg&fm=jpg'/>
+    <Box bgAttachment='fixed' bgImage='https://static.vecteezy.com/system/resources/previews/005/152/375/original/modern-futuristic-neon-purple-background-free-vector.jpg'>
+      <Heading>About</Heading>
+    </Box>
   <Box>
   <RevealWrapper origin='left' delay={200} duration={3000} distance='500px' reset={true}>
     <Container maxW={1400}>
