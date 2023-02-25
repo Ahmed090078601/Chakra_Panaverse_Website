@@ -8,13 +8,15 @@ import Instructors from './instructors'
 import Campuses from './campuses'
 import Partners from './partners'
 import { RevealWrapper } from  'next-reveal'
+import { motion } from "framer-motion"
 
 export default function body() {
   return (
     <>
-  <Box bgAttachment='fixed' bgImage='https://static.vecteezy.com/system/resources/previews/005/152/375/original/modern-futuristic-neon-purple-background-free-vector.jpg'>
-  <RevealWrapper  origin='left' distance='10px' className="load-hidden" rotate={{x: 12,y:40,z:0}} delay={200} duration={1000}  reset={true}>
+  <Box  bgImage='https://static.vecteezy.com/system/resources/previews/005/152/375/original/modern-futuristic-neon-purple-background-free-vector.jpg'>
+
 <Container maxW={1400}>
+{/* <RevealWrapper  origin='left' distance='10px' className="load-hidden" rotate={{x: 12,y:40,z:0}} delay={200} duration={1000}  reset={true}> */}
 <Flex pt={{lg: '150px', base: '30px'}} pb={{lg:'100px',base:'0'}} px={{lg:'40px', base:'5px'}} display={{lg:'flex', base:'grid'}}>
 <Box flexBasis={{lg:'50%', base:'%'}} px={{lg:'40px', base: '0'}}>
 <Heading color='black' size='2xl'>Prepare yourself for the Next Generation of Internet with Panaverse Web-3.0</Heading>
@@ -23,15 +25,21 @@ export default function body() {
 </Box>
 
 <Box>
+<motion.button
+    whileHover={{ scale: 1.1 }}
+    whileTap={{ scale: 0.9 }}
+  >
     <Image src='/anmi-bd.png' width="824" height="239" alt='img'/>
+    </motion.button>
 </Box>
 
 </Flex>
+{/* </RevealWrapper> */}
 </Container>
-</RevealWrapper>
+
 
     <Box>
-    <RevealWrapper origin='right' delay={200} duration={3000} distance='10px' reset={true}>
+    <RevealWrapper origin='right' delay={100} duration={3000} distance='10px' reset={true}>
       <Container maxW={1400} >
 <Flex  gap={{ lg:'100px', base:'10px'}} display={{ lg:'flex', base:'grid'}}>
           <Box flexBasis='50%' >

@@ -19,7 +19,7 @@ export default function RootLayout({
       <head />
       <body>
       <ChakraProvider> 
-        {/* <Header2/> */}
+        
         <Header/>
         {children}
         <Footer/>

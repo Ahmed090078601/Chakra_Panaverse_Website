@@ -6,7 +6,7 @@ import { RevealWrapper } from  'next-reveal'
 export default function Partners() {
   return (
     <RevealWrapper origin='left' delay={200} duration={1000} distance='50px' reset={true}>
-    <Box bg={'gray.100'}  display={{lg:'flex', base:''}}>
+    <Box   display={{lg:'flex', base:''}}>
 <Container maxW='1400'>
 <Center pt={{lg: '100px', base: '30px'}} >
     <Heading size={'2xl'}>Our Partners</Heading>

@@ -10,7 +10,7 @@ export default function Header() {
     const bgColor = useColorModeValue('gray.50', 'whileAlpha.50')
     return (
         <Box boxShadow='sm' bg={bgColor} >
-            <Container maxW={1400} position='fixed'  bgImage='https://static.vecteezy.com/system/resources/previews/005/152/375/original/modern-futuristic-neon-purple-background-free-vector.jpg'>
+            <Container maxW={1400} zIndex={1} position='fixed'   bgImage='https://static.vecteezy.com/system/resources/previews/005/152/375/original/modern-futuristic-neon-purple-background-free-vector.jpg'>
                 <SimpleGrid templateColumns={{ lg: 'repeat(3, 1fr)', base: 'repeat(2, 1fr)' }} >
                     <Box color="gray" as="span">
                         {/* <Image  src={png} alt='panaverse_logo'></Image> */}
@@ -25,7 +25,9 @@ export default function Header() {
                         <Link href='/hiw'>How It Works</Link>
                     </Flex>
                     <Box display={{ lg: 'initial', base: 'none' }} as="span" >
-                        <Button mt='20px' size='lg'  float='right' as="section">Apply</Button>
+                        <Link href="https://portal.piaic.org/signup">
+                        <Button mt='20px' size='lg'  float='right' as="section" >Apply</Button>
+                        </Link>
                         <Button onClick={toggleColorMode} mt='20px' ml='2' as="section" float='right' size='lg' colorScheme="blackAlpha" >
                             🌙</Button>
                     </Box>
@@ -39,21 +41,29 @@ export default function Header() {
                                 variant='outline'
                             />
                             <MenuList>
-                                <MenuItem>
-                                <Link href='/'>Home</Link>
-                                </MenuItem>
-                                <MenuItem>
-                                <Link href='/syllabus'>Syllabus</Link>
-                                </MenuItem>
-                                <MenuItem>
-                                    Explore
-                                </MenuItem>
-                                <MenuItem>
-                                    About
-                                </MenuItem>
-                                <MenuItem>
-                                    Contact
-                                </MenuItem>
+                            <MenuItem as="a" href="/">
+      Home
+    </MenuItem>
+    <MenuItem as="a" href="/syllabus">
+      Syllabus
+    </MenuItem>
+    <MenuItem as="a" href="/explore">
+      Explore
+    </MenuItem>
+    <MenuItem as="a" href="/about">
+      About
+    </MenuItem>
+    <MenuItem as="a" href="/contact">
+      Contact
+    </MenuItem>
+    <MenuItem as="a" href="/hiw">
+      How It Works
+    </MenuItem>
+    <MenuItem as="a" href="https://portal.piaic.org/signup">
+      Apply
+    </MenuItem>
+
+                               
                             </MenuList>
                         </Menu>
                     </Box>
