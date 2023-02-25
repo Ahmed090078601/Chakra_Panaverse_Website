@@ -18,7 +18,7 @@ export default function body() {
   <Box  bgImage='https://static.vecteezy.com/system/resources/previews/005/152/375/original/modern-futuristic-neon-purple-background-free-vector.jpg'>
 
 <Container maxW={1400} >
-{/* <RevealWrapper  origin='left' distance='10px' className="load-hidden" rotate={{x: 12,y:40,z:0}} delay={200} duration={1000}  reset={true}> */}
+<RevealWrapper  origin='left' distance='10px' className="load-hidden" rotate={{x: 12,y:40,z:0}} delay={200} duration={1000}  reset={true}>
 <Flex pt={{lg: '150px', base: '30px'}} pb={{lg:'100px',base:'0'}} px={{lg:'40px', base:'5px'}} display={{lg:'flex', base:'grid'}}>
 <Box flexBasis={{lg:'50%', base:'%'}} px={{lg:'40px', base: '0'}} pt="25px">
 <Heading color='black' size='2xl'>Prepare yourself for the Next Generation of Internet with Panaverse Web-3.0</Heading>
@@ -36,12 +36,12 @@ export default function body() {
 </Box>
 
 </Flex>
-{/* </RevealWrapper> */}
+</RevealWrapper>
 </Container>
 
 
     <Box>
-    {/* <RevealWrapper origin='right' delay={100} duration={3000} distance='5px' reset={true}> */}
+    <RevealWrapper origin='right' delay={100} duration={3000} distance='5px' reset={true}>
       <Container maxW={1400} >
 <Flex  gap={{ lg:'100px', base:'10px'}} display={{ lg:'flex', base:'grid'}}>
           <Box flexBasis='50%' >
@@ -60,10 +60,10 @@ export default function body() {
           </Box>
         </Flex>
 </Container>
-{/* </RevealWrapper> */}
+</RevealWrapper>
     </Box>
     </Box>
-    <RevealWrapper origin='left' delay={200} duration={3000} distance='28px' reset={true}>
+    <RevealWrapper origin='left' delay={100} duration={2000} distance='15px' reset={true}>
    <Container maxW={1400}>
     <Flex textAlign={'center'} pt={{lg:'40px', base:'10px'}} gap={{lg:'100px', base:'10px'}} display={{lg:'flex', base:'grid'}}>
       <Box flexBasis='50%' pl={{lg:'60px', base:'5px'}}>
@@ -85,7 +85,7 @@ export default function body() {
    
 
    <Box>
-   <RevealWrapper origin='right' delay={200} duration={1000} distance='35px' reset={true}>
+   <RevealWrapper origin='right' delay={200} duration={1000} distance='15px' reset={true}>
       <Container maxW={1400} >
 <Flex  gap={{ lg:'100px', base:'10px'}} display={{ lg:'flex', base:'grid'}}>
           <Box flexBasis='50%' >
