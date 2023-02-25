@@ -13,9 +13,9 @@ export default function Partners() {
     </Center>
 {/* <Flex flexDir='row' display={{lg:'flex', base:'grid'}} pt={{lg: '50px', base: '30px'}}> */}
 <HStack  alignItems={'center'} display={{lg:'flex', base:'grid'}} gap='70' pt='10' px={{lg:'70px', base:'5px'}}>
-    {data.map((ins)=>(
-       <Center>
-     <Image  width={90} height={90} src={ins.src} />
+    {data.map((ins)=>( 
+       <Center  >
+     <Image  width={90} height={90} src={ins.src}  />
      
      </Center>
      
