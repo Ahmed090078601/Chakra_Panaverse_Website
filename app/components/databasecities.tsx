@@ -19,7 +19,7 @@ export const data = [
         text:'C-II Block C 2 Phase 1 Johar Town, Lahore, Punjab 54770'
     },
     {
-        id:3,
+        id:4,
         src:'/peshawar.jpg',
         heading:'Peshawar',
         text:'Old Jamrud Road, Qadir Abad, Peshawar, Khyber Pakhtunkhwa'

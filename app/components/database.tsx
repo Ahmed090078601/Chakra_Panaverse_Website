@@ -19,7 +19,7 @@ export const data = [
         text:'Panaverse DAO is a community of Web 3 and Metaverse developers, designers, trainers, startup founders'
     },
     {
-        id:3,
+        id:4,
         src:'/hira_khan.jpg',
         heading:'Hira Khan',
         text:'Panaverse DAO is a community of Web 3 and Metaverse developers, designers, trainers, startup founders'
